@@ -13,9 +13,22 @@ readable.
 To install them, follow these steps:
 
 * unpack the archive into an empty directory
-* Adebar 1.6.0 and below: copy (or move) the files you think you'll need into *Adebar's* cache directory  
-  simply remove what remains, you can always pick it from the archive lateron
-* Adebar > 1.6.0: copy the files while keeping the directory structure (pick what matches your device(s))
+* Adebar 1.6.0 and below:
+    1. copy (or move) the files you think you'll need into *Adebar's* cache directory  
+    2. simply remove what remains, you can always pick it from the archive lateron
+* Adebar > 1.6.0:
+    1. copy the files while keeping the directory structure (pick what matches your device(s)).
+       Usually you will want to have the files directly from `sysApps/*` and the
+       `sysApps/Android` folder. If you use Google apps, the `sysApps/Google` folder
+       will be of interest. Additionally, pick the folder matching your device's
+       vendor (if such folder does exist).
+    2. simply remove what remains, you can always pick it from the archive lateron
+    3. adjust the `APPCACHESPLUS` variable in your config to include the directories
+       you've picked. It should e.g. read  
+       `APPCACHESPLUS="sysApps sysApps/Android sysApps/Google"`  
+       Note the names in this variable are relative to your `CACHEDIR/appnames`
+       directory. Refer to the [directory settings](https://github.com/IzzySoft/Adebar/wiki/Configuration#directory-settings)
+       in *Adebar's* wiki for reference on the configuration settings.
 
 To figure where the cache directory is, check your config(s) for the `CACHEDIR`
 variable. If that's not set, no cache is used – so you will first have to set it
