@@ -42,7 +42,7 @@ hopefully tell a little more on what each app is for.
 The sub-directories in this archive are:
 
 * `Android`: apps belonging to „stock Android“, so probably everyone will need these
-* `CM`: for users of CyanogenMod
+* `CM`: for users of CyanogenMod / LineageOS
 * `CatSound`: apps are usually installed on tablets from *CatSound*
 * `Google`: Unless you're running an [Android without Google](http://android.izzysoft.de/articles/named/android-without-google),
   these files are useful to you.
