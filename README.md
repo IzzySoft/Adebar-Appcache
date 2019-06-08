@@ -42,12 +42,16 @@ hopefully tell a little more on what each app is for.
 The sub-directories in this archive are:
 
 * `Android`: apps belonging to „stock Android“, so probably everyone will need these
+* `BQ`: for devices of the Spanish manufacturer BQ
 * `CM`: for users of CyanogenMod / LineageOS
 * `CatSound`: apps are usually installed on tablets from *CatSound*
 * `Google`: Unless you're running an [Android without Google](http://android.izzysoft.de/articles/named/android-without-google),
   these files are useful to you.
 * `LG`: for LG devices
+* `Lenovo`: for Lenovo tablets
+* `MTK`: apps shipped on devices with MTK chipsets
 * `Motorola`: apps specific to *Motorola* devices
+* `QualComm`: apps shipped on devices with QualComm chips
 * `Samsung`: the big ball of Samsung bloat (200+ picked from the S7 Edge, and I didn't find the rest)
 
 
