@@ -53,8 +53,10 @@ The sub-directories in this archive are:
 * `Motorola`: apps specific to *Motorola* devices
 * `QualComm`: apps shipped on devices with QualComm chips
 * `Samsung`: the big ball of Samsung bloat (200+ picked from the S7 Edge, and I didn't find the rest)
+* `Speadtrum`: apps by Speadtrum (Chinese chipset vendor)
+* `Wiko:` for devices by the French manufacturer Wiko
 
 
 ## Further references
 For further names, you can also refer to [What Android Apps(Bloatware) are Safe
-to Remove? ](http://blog.burrowsapps.com/2014/03/what-android-apps-are-safe-to-remove.html)
+to Remove? ](https://blog.burrowsapps.com/2014/03/what-android-apps-are-safe-to-remove.html)
